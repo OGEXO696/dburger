@@ -202,14 +202,14 @@ ol {
     row-gap: 15px;
 }
 
-.wrapper-main__cart {
+.wrapper-main__card {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.wrapper-main__cart-info {
+.wrapper-main__card-info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,7 +221,7 @@ ol {
     height: 50px;
 }
 
-.wrapper-main__img img {
+.wrapper-main__img img{
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -400,7 +400,7 @@ ol {
     background: #F4F4F4;
     padding: 16px;
     width: 306px;
-    margin:0 12px ;
+    margin: 0 12px;
 }
 
 .wrapper__list-count {
@@ -469,17 +469,20 @@ ol {
 .wrapper__list-btn:hover {
     background: var(--green);
 }
+
 .print {
     display: none;
     width: 200px;
     flex-direction: column;
     align-items: center;
 }
+
 .print__header {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .print__body {
     display: flex;
     flex-direction: column;
@@ -487,16 +490,19 @@ ol {
     gap: 10px;
     margin: 20px 0;
 }
+
 .print__body-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .print__body-item_name {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .print__header img {
     filter: invert();
 }
